@@ -17,6 +17,10 @@ end
 
 gem 'jquery-rails', '2.0.0'
 
+group :development do
+  gem 'annotate', '2.4.0'
+end
+
 group :test do
   gem 'capybara', '1.1.2'
   gem 'spork', '0.9.0.rc8'
